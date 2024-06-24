@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+  
+    .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+          <path
+            d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7" />
+        </svg> Tamzz!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Return Policy</a></li>
+              <li><a class="dropdown-item" href="#">Ratings</a></li>
+              <li><a class="dropdown-item" href="#">Reviews</a></li>
+              <li><a class="dropdown-item" href="#">Advertising</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Postal Code" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Magic Morsels</h1>
+    
+    <div class="col-lg-6 mx-auto">
+      
+      <p class="lead mb-4">
+        Craving something sweet? Our chocolate cookies are so good, they might just cause a global sugar rush! Freshly
+        baked with the finest ingredients and a whole lot of love, they're guaranteed to make your taste buds dance.
+        Order now and join the worldwide cookie craze—your sweet tooth will thank you (and maybe even write you a
+        thank-you note)!
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Order Now!</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More!</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 100vh;">
+      <div class="container px-5">
+        <img src="./cookie.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Cookie image" width="700"
+          height="auto" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Customise Your Own Flavour</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./briefcase.svg" alt="briefcase" height="30px">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Why Magic Morsels?</h3>
+        <p>Our cookies are made with the finest ingredients, delivering an unparalleled, melt-in-your-mouth experience.
+          Indulge in the perfect blend of rich flavors and satisfying crunch that will leave you craving more!</p>
+        <a href="#" class="icon-link">
+          Place Your Order
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./bus-front.svg" alt="coutrywide" height="30px">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Country Wide</h3>
+        <p>PShop with us for the finest cookies, delivered fresh to your doorstep no matter where you are in the world.
+          Enjoy our delicious treats globally, bringing a taste of sweetness to every corner of the map!</p>
+        <a href="#" class="icon-link">
+          Place Your Order
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src=".//chat-square-heart.svg" alt="pchat-square-heart" height="30px">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Personal Touch</h3>
+        <p>"We take pride in delivering not just cookies, but a personal touch with every batch we serve."
+
+          "Our cookies are crafted with care, ensuring each bite carries our signature personal touch."</p>
+        <a href="#" class="icon-link">
+          Place Your Order
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./one.jpeg" class="d-block w-100" height="500px" width="auto" alt="one image">
+      </div>
+      <div class="carousel-item">
+        <img src="./two.jpeg" class="d-block w-100" height="500px" width="auto" alt="two image">
+      </div>
+      <div class="carousel-item">
+        <img src="./three.jpeg" class="d-block w-100"  height="500px" width="auto"alt="three image">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
